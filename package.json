@@ -1,0 +1,30 @@
+{
+  "name": "my-nft",
+  "version": "1.0.0",
+  "description": "3 part tut series",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nft",
+    "minting",
+    "web3",
+    "etherjs"
+  ],
+  "author": "kara",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.3"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.2.2",
+    "@openzeppelin/contracts": "^4.4.2",
+    "dotenv": "^16.0.0"
+  }
+}
